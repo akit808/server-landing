@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Простой гид по подключению к Minecraft-серверу для друзей." />
+    <title>Minecraft сервер — как подключиться</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="extras.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="nav wrap">
+      <a class="brand" href="#top" aria-label="Minecraft сервер — на главную"><span class="brand-mark">M</span> MINECRAFT СЕРВЕР</a>
+      <a class="nav-link" href="#connect">Подключиться <span aria-hidden="true">↓</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> Сервер для друзей</p>
+          <h1>Заходи.<br /><em>Твой мир ждёт.</em></h1>
+          <p class="lead">Наш Minecraft-сервер для класса. Заходи, строй, выживай и играй вместе с нами.</p>
+          <div class="hero-actions">
+            <button class="primary" data-copy-server>Скопировать IP <span aria-hidden="true">↗</span></button>
+            <a class="secondary" href="#guide">Как зайти <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="server-hint"><span>Адрес</span> <strong data-server-address>mc.akit808.ru</strong></p>
+        </div>
+        <div class="hero-art" aria-label="Стилизованный кубический пейзаж Minecraft">
+          <div class="sun"></div><div class="cloud cloud-a"></div><div class="cloud cloud-b"></div>
+          <div class="terrain terrain-back"></div><div class="terrain terrain-front"></div>
+          <div class="floating-card"><span>Версия</span><strong data-version>26.3</strong></div>
+          <div class="cube cube-one"></div><div class="cube cube-two"></div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Особенности сервера"><div class="ticker-track"><span>ВЫЖИВАНИЕ</span><i>✦</i><span>СВОИ ЛЮДИ</span><i>✦</i><span>ОБЩИЙ МИР</span><i>✦</i><span>НИКАКИХ МОДОВ</span><i>✦</i><span>ВЫЖИВАНИЕ</span><i>✦</i><span>СВОИ ЛЮДИ</span><i>✦</i><span>ОБЩИЙ МИР</span><i>✦</i><span>НИКАКИХ МОДОВ</span><i>✦</i></div></section>
+
+      <section class="intro wrap">
+        <p class="section-label">01 — О сервере</p>
+        <div class="intro-grid"><h2>Просто играем<br />вместе.</h2><div><p>Здесь можно строить базу, добывать ресурсы и играть с друзьями. Всё как в обычном Minecraft.</p><p>На сервер пускаем только своих. Чтобы тебя добавили, напиши мне свой игровой ник.</p><a class="telegram-link" href="https://t.me/akit808" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 3.5 18.3 20c-.2 1.2-.9 1.5-1.8.9l-5.1-3.7-2.5 2.4c-.3.3-.5.5-1 .5l.4-5.2 9.5-8.6c.4-.4-.1-.6-.6-.3L5.5 13.3.5 11.7c-1.1-.4-1.1-1.1.2-1.6L20.2 2.6c.9-.3 1.7.2 1.3.9Z"/></svg> Написать в Telegram</a></div></div>
+        <div class="features"><article><span class="feature-number">01</span><h3>Обычный Minecraft</h3><p>Без обязательных модов. Можно просто зайти и играть.</p></article><article><span class="feature-number">02</span><h3>Защита мира</h3><p>Если кто-то что-то сломает, это можно будет вернуть.</p></article><article><span class="feature-number">03</span><h3>Только свои</h3><p>Добавим тебя в список игроков после сообщения в Telegram.</p></article></div>
+      </section>
+
+      <section class="guide wrap" id="guide">
+        <div class="guide-heading"><p class="section-label">02 — Быстрый старт</p><h2>Три шага<br />до приключения.</h2></div>
+        <ol class="steps">
+          <li><span class="step-no">01</span><div><h3>Скачай TLauncher</h3><p>Скачай лаунчер, установи его и открой.</p><a class="small-action" href="https://dl2.tlauncher.ru/f.php?f=files%2FTLauncher-Installer-1.9.7.8.exe">Скачать TLauncher <span>↓</span></a></div><span class="step-tail">↓</span></li>
+          <li><span class="step-no">02</span><div><h3>Выбери версию <span data-version>26.3</span></h3><p>В TLauncher выбери эту версию и запусти игру. Моды ставить не нужно.</p></div><span class="step-tail">↓</span></li>
+          <li id="connect"><span class="step-no">03</span><div><h3>Зайди на сервер</h3><p>Нажми «Сетевая игра» → «Добавить сервер» и вставь этот адрес:</p><button class="ip-card" data-copy-server><span data-server-address>mc.akit808.ru</span><small>Нажми, чтобы скопировать</small></button></div><span class="step-tail">✦</span></li>
+        </ol>
+      </section>
+
+      <section class="rules wrap"><div><p class="section-label">03 — База</p><h2>Игра должна<br />оставаться игрой.</h2></div><div class="rule-list"><p><b>01</b> Не ломай и не бери чужие вещи без спроса.</p><p><b>02</b> Не мешай другим играть.</p><p><b>03</b> Что-то сломали? Напиши мне в Telegram.</p></div></section>
+
+      <section class="faq wrap"><p class="section-label">04 — На всякий случай</p><h2>Не получается зайти?</h2><details><summary>Пишет «Outdated client» <span>+</span></summary><p>Проверь, что в TLauncher выбрана версия <span data-version>26.3</span>.</p></details><details><summary>Пишет «Connection refused» <span>+</span></summary><p>Сервер, скорее всего, ещё запускается. Напиши мне — запуск на Aternos может занять пару минут.</p></details><details><summary>Меня нет в вайтлисте <span>+</span></summary><p>Напиши мне в Telegram свой точный ник — я добавлю тебя.</p><a class="small-action" href="https://t.me/akit808" target="_blank" rel="noopener">Написать в Telegram <span>↗</span></a></details></section>
+
+      <section class="cta wrap"><p>Уже всё настроил?</p><h2>Увидимся<br />в мире.</h2><button class="primary light" data-copy-server>Скопировать IP <span aria-hidden="true">↗</span></button></section>
+    </main>
+    <footer class="wrap"><a class="brand" href="#top"><span class="brand-mark">M</span> MINECRAFT СЕРВЕР</a><p>Сделано для друзей · <span id="year"></span></p></footer>
+    <div class="toast" role="status" aria-live="polite">Адрес скопирован</div>
+    <script src="script.js"></script>
+  </body>
+</html>

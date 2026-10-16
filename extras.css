@@ -1,0 +1,6 @@
+.primary{display:inline-block}
+.telegram-link,.small-action{display:inline-flex;align-items:center;gap:8px;border-radius:100px;text-decoration:none;font-size:12px;font-weight:800;color:var(--ink);margin-top:9px}
+.telegram-link{background:#e3e5de;padding:11px 14px}
+.telegram-link svg{width:15px;height:15px;fill:#2a9cdd}
+.small-action{background:var(--lime);padding:11px 14px}
+.small-action span{font-size:15px}
